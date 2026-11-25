@@ -1,0 +1,43 @@
+/* Mauve color tokens — https://mauvecolor.com */
+/* 50–950 scales keep each color's OKLCH hue at fixed lightness steps; chroma is reduced only where a step falls outside sRGB. */
+:root {
+  /* Mauve #E0B0FF — A Dictionary of Color, Maerz and Paul (1930) */
+  --mauve-50: #FAF4FF;
+  --mauve-100: #F4E4FF;
+  --mauve-200: #EACBFF;
+  --mauve-300: #E0B0FF;  /* base */
+  --mauve-400: #BF90DD;
+  --mauve-500: #A476C1;
+  --mauve-600: #8A5DA5;
+  --mauve-700: #71448B;
+  --mauve-800: #5A2E72;
+  --mauve-900: #44175B;
+  --mauve-950: #2E0043;
+  --mauve: #E0B0FF;
+  /* Dusty mauve #C0AFC5 — Common value in online color-name lists (Color-Name.com, SchemeColor) */
+  --dusty-mauve-50: #FCF3FF;
+  --dusty-mauve-100: #F6E4FB;
+  --dusty-mauve-200: #E4D2E9;
+  --dusty-mauve-300: #C0AFC5;  /* base */
+  --dusty-mauve-400: #B09FB5;
+  --dusty-mauve-500: #96869B;
+  --dusty-mauve-600: #7C6D81;
+  --dusty-mauve-700: #645568;
+  --dusty-mauve-800: #4D3F52;
+  --dusty-mauve-900: #382B3C;
+  --dusty-mauve-950: #241728;
+  --dusty-mauve: #C0AFC5;
+  /* Dark mauve #874C62 — xkcd color survey (2010, CC0) */
+  --dark-mauve-50: #FFF3F7;
+  --dark-mauve-100: #FFE3EB;
+  --dark-mauve-200: #FFC7DA;
+  --dark-mauve-300: #EEABC2;
+  --dark-mauve-400: #D290A7;
+  --dark-mauve-500: #B6768D;
+  --dark-mauve-600: #9A5E74;
+  --dark-mauve-700: #874C62;  /* base */
+  --dark-mauve-800: #673046;
+  --dark-mauve-900: #501A31;
+  --dark-mauve-950: #39051E;
+  --dark-mauve: #874C62;
+}
